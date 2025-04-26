@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transform your fitness journey with hejixd - Expert personal training, customized workout plans, and premium supplements for optimal results.">
+    <meta name="keywords" content="personal training, fitness coach, workout plans, supplements, HTLT, pre-workout, custom training">
+    <meta name="author" content="hejixd">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>hejixd Fitness | Transform Your Body, Transform Your Life</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">hejixd</a>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@hejixd" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/hejixd" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Body, Transform Your Life</h1>
+            <p>Experience personalized training programs designed to help you achieve your fitness goals</p>
+            <div class="cta-buttons">
+                <a href="#services" class="btn btn-primary">Get Started</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-video-container">
+            <video id="heroVideo" autoplay muted playsinline loop>
+                <source src="images/edit.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Meet Your Coach</h2>
+                <div class="about-text">
+                    <p>Hey! I'm hejixd, and I've been where you are. My fitness journey started in high school, 
+                    where I balanced football and track while exploring different training methodologies. 
+                    Through years of experience and experimentation, I've discovered what truly works.</p>
+                    
+                    <p>The biggest lesson I've learned? There's no "one-size-fits-all" approach to fitness. 
+                    Success comes from understanding your unique goals and crafting a program that works 
+                    specifically for you.</p>
+                    
+                    <p>Currently, I specialize in helping clients build impressive physiques through 
+                    bodybuilding-focused training. But don't let that limit you - if you're interested 
+                    in hybrid training or athletic performance, I'm more than happy to customize a program 
+                    that fits your specific needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Premium Training Resources</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="images/side_chest.jpg" alt="Custom Workout Plan">
+                    <div class="card-content">
+                        <h3>Custom Workout Plan</h3>
+                        <p>Get a personalized training program tailored to your goals, experience level, and available equipment.</p>
+                        <a href="https://malloyrichard.gumroad.com/l/tgsxy" class="btn btn-primary" data-gumroad-overlay-checkout="true">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <img src="images/stim.png" alt="HTLT Premium Supplements">
+                    <div class="card-content">
+                        <h3>HTLT Pre-Workout</h3>
+                        <p>Enhance your training with premium supplements designed for maximum performance and results.</p>
+                        <p class="discount">Use code <strong>HEJI</strong> for 10% off</p>
+                        <a href="https://www.htltsupps.com" target="_blank" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Ready to Transform?</h2>
+            <p>Take the first step towards your fitness goals with personalized 1:1 coaching or a custom training plan.</p>
+            <div class="social-contact">
+                <a href="https://www.tiktok.com/@hejixd" target="_blank" class="social-link">
+                    <i class="fab fa-tiktok"></i>
+                    <span>@hejixd</span>
+                </a>
+                <a href="https://www.instagram.com/hejixd" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                    <span>@hejixd</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 hejixd Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="js/auth.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
