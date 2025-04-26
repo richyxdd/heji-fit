@@ -1,6 +1,6 @@
-# Fitness Website V2
+# Heji Fit
 
-A modern, responsive fitness website built with HTML, CSS, and JavaScript.
+A modern, responsive fitness website for personal training and fitness coaching.
 
 ## Features
 
@@ -10,7 +10,8 @@ A modern, responsive fitness website built with HTML, CSS, and JavaScript.
 - Video background
 - Mobile-friendly navigation
 - Smooth animations
-- Contact form
+- Custom workout plans
+- Premium supplement recommendations
 - Social media integration
 
 ## Technologies Used
@@ -24,7 +25,7 @@ A modern, responsive fitness website built with HTML, CSS, and JavaScript.
 ## Project Structure
 
 ```
-fitness_website_v2/
+heji-fit/
 ├── css/
 │   └── styles.css
 ├── js/
@@ -39,7 +40,7 @@ fitness_website_v2/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/fitness-website-v2.git
+git clone https://github.com/yourusername/heji-fit.git
 ```
 
 2. Open `index.html` in your web browser
